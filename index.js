@@ -3,7 +3,7 @@
  * @returns "B" if true, "A" if false
  * @param {*} accountBalanceHistory 
  */
-const accountTypeChecker = (accountBalanceHistory) => {
+const checkAccountType = (accountBalanceHistory) => {
     let diff = 0;
 
     for (let i = 1; i < accountBalanceHistory.length; i++) {
@@ -43,4 +43,4 @@ const accountBalanceHistory = [
     }
 ];
 
-console.log(accountTypeChecker(accountBalanceHistory));
+console.log(checkAccountType(accountBalanceHistory));

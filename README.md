@@ -29,6 +29,9 @@ using Typescript, and should probably have some try/catch blocks when using it.
 I generally like writing functional over procedural code, however in this case procedural ended up offering
 the simplest solution.
 
+I've also named the function `checkAccountType` as opposed to `accountTypeChecker`; I prefer verbs for functions
+and nouns for classes 🤙
+
 ### Testing strategies
 
 Ideally this would be tested with a variety of "A" cases and a variety of "B" cases, and with arrays of length 0 and 1.
