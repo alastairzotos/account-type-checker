@@ -1,0 +1,11 @@
+{
+  "name": "account-balance",
+  "version": "1.0.0",
+  "description": "Account type checker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC"
+}
