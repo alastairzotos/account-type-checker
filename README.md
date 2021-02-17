@@ -8,7 +8,7 @@ npm start
 
 ### How it works
 
-The function `accountTypeChecker` starts from the 2nd element of the array
+The function `checkAccountType` starts from the 2nd element of the array
 and compares the balance to the previous element's balance. If it's the first
 round of the loop, this value is stored in a variable.
 
